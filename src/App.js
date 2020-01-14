@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorldComponent';
 import Header from './components/Header/Header'
+import ConstComponent from './components/ConstComponent'
 
 function App() {
   return (
@@ -21,11 +22,15 @@ function App() {
           Learn React
         </a>
       </header>
-
-
       <br />
+      
       <Header />
       <HelloWorld />
+
+      <ConstComponent name="Nombre" edad="28">
+         Aqui los niños! Estos son los hijos de este componente. <br />
+         Este componente es una funcion y no una clase. 
+      </ConstComponent>
     </div>
   );
 }
