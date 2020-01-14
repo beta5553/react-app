@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorldComponent';
+import Header from './components/Header/Header'
 
 function App() {
   return (
@@ -19,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+
+
+      <br />
+      <Header />
+      <HelloWorld />
     </div>
   );
 }
