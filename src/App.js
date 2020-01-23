@@ -5,13 +5,13 @@ import HelloWorld from './components/HelloWorldComponent'
 import Header from './components/Header/Header'
 import ConstComponent from './components/ConstComponent'
 import UploadFile from './components/UploadFile/UploadFile'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
     <div className="App">
       <Header />
       {/* <HelloWorld /> */}
-
       <br />
       <UploadFile />
       <br />
@@ -20,6 +20,8 @@ function App() {
          Aqui los niños! Estos son los hijos de este componente. <br />
          Este componente es una funcion y no una clase. 
       </ConstComponent>
+
+      <Footer />
     </div>
   );
 }

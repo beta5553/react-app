@@ -1,4 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
 .box {
-    background-color: rgb(97, 66, 66);
-    border: 1px brown solid;
+    height: 100px;
+    border: 1px brown solid;    
+    text-align: center ;
+    font-size: 50px;
+}
+
+.container {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: rgb(89, 0, 255);
+}
+
+.box3 {
+    background-color: rgb(80, 87, 87);
+}
+
+.box4 {
+    background-color: rgb(91, 167, 47);
+}
+
+.box5 {
+    background-color: rgb(177, 22, 177);
 }

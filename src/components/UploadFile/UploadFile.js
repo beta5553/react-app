@@ -1,12 +1,6 @@
 import React, { Component } from 'react'
-import Amplify, { Storage } from 'aws-amplify';
-import awsconfig from './aws-exports';
-
-Amplify.configure(awsconfig);
 
 class UploadFile extends Component {
-
-    
 
     render() {
         return(

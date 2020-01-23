@@ -9,13 +9,14 @@ class Header extends Component {
 
     render () {
         return (
-            <div>
-                <h1>Header aqui</h1>
+            <div className="container">
+                <h1>Flexbox</h1>
+                <div className="box box1">1</div>
+                <div className="box box2">2</div>
+                <div className="box box3">3</div>
+                <div className="box box4">4</div>
+                <div className="box box5">5</div>
                 <button onClick={this.switcher}>Log something</button>
-                <div className="box">1</div>
-                <div className="box">2</div>
-                <div className="box">3</div>
-                <div className="box">4</div>
             </div>
         )
     }
