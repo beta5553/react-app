@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"reactappc58e4dcd": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"izzy": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
