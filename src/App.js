@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import ConstComponent from './components/ConstComponent'
 import UploadFile from './components/UploadFile/UploadFile'
 import Footer from './components/Footer/Footer'
+import MediaCard from './components/MediaCard/MediaCard'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
          Aqui los niños! Estos son los hijos de este componente. <br />
          Este componente es una funcion y no una clase. 
       </ConstComponent>
+
+      <MediaCard />
 
       <Footer />
     </div>
