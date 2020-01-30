@@ -9,7 +9,9 @@ class Header extends Component {
 
     state = {
         username: "Izzy-kun",
-        password: "t1"
+        password: "t1",
+        antoherArg: 123, 
+        hereanotheryet: 456
         }
 
     render () {
