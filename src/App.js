@@ -9,7 +9,8 @@ import MediaCard from './components/MediaCard/MediaCard'
 class App extends Component {
 
   state = {
-    showMediaCards: true
+    showMediaCards: true,
+    showOtherThings: false
   }
 
    toggleContent = () => {
